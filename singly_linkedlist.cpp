@@ -32,7 +32,7 @@ public:
             if ((START != NULL) && (nim == START->noMhs))
             {
                 cout << "\nDuplikasi noMhs tidak diijinkan\n";
-                
+                return;
             }
         }
     }
